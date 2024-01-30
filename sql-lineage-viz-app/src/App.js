@@ -1,3 +1,5 @@
+import MainDrawArea from './mainDrawArea';
+
 import './App.css';
 
 function App() {
@@ -6,6 +8,9 @@ function App() {
       <header className="App-header">
         app headerです
       </header>
+      <main>
+        <MainDrawArea />
+      </main>
     </div>
   );
 }
